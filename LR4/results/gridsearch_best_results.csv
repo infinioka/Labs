@@ -1,0 +1,6 @@
+﻿Модель,F1-score,Лучшие параметры
+Random Forest,0.7673850574712645,{'classifier__n_estimators': 100}
+KNN,0.7611111111111111,{'classifier__n_neighbors': 7}
+Logistic Regression,0.6778682418050234,{'classifier__C': 0.1}
+Decision Tree,0.6627116549252255,{'classifier__max_depth': 5}
+Gradient Boosting,0.5158730158730159,{'classifier__n_estimators': 200}

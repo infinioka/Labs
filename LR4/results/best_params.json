@@ -1,0 +1,17 @@
+{
+    "Logistic Regression": {
+        "classifier__C": 0.1
+    },
+    "KNN": {
+        "classifier__n_neighbors": 7
+    },
+    "Decision Tree": {
+        "classifier__max_depth": 5
+    },
+    "Random Forest": {
+        "classifier__n_estimators": 100
+    },
+    "Gradient Boosting": {
+        "classifier__n_estimators": 200
+    }
+}
