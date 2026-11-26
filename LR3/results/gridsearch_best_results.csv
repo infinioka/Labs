@@ -1,0 +1,5 @@
+﻿Модель,Accuracy,Precision,Recall,F1-score,Лучшие параметры
+Gradient Boosting,0.7604229795554189,0.7182877289989158,0.7182455253889238,0.7149193864676715,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 200, 'classifier__subsample': 1.0}"
+Random Forest,0.7555887689279935,0.7141956445183563,0.7121010503277916,0.706382044402586,"{'classifier__max_depth': 10, 'classifier__max_features': 0.8, 'classifier__min_samples_leaf': 1, 'classifier__n_estimators': 200}"
+Decision Tree,0.7132397552968499,0.6673507132713218,0.679935925035976,0.6705743938798151,"{'classifier__criterion': 'gini', 'classifier__max_depth': 10, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 10}"
+KNN,0.6586054652647036,0.5879693889599882,0.5972583867969299,0.5869723540003651,"{'classifier__metric': 'manhattan', 'classifier__n_neighbors': 11, 'classifier__weights': 'distance'}"
